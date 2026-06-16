@@ -20,15 +20,17 @@ BlinkIT's leadership needs to know which outlets and products are working, and w
 | Field | Detail |
 |---|---|
 | Records analyzed | 8,523 product-outlet rows |
-| Source file | [`BlinkIT_Grocery_Data.xlsx`](./data/BlinkIT_Grocery_Data.xlsx) |
+| Source file | [`BlinkIT Grocery Data.xlsx`](./data/BlinkIT%20Grocery%20Data.xlsx) |
 | Fields | Item Type, Item Fat Content, Item Weight, Item Visibility, Outlet Size, Outlet Location Type, Outlet Type, Outlet Establishment Year, Sales, Rating |
 
 ## 🛠️ Tools & Approach
 1. **Excel** – Initial review and validation of the raw 8,523-row dataset.
-2. **Power Query** – Cleaned inconsistent category labels (e.g. "LF", "low fat", "Low Fat" all merged into a single Low Fat category).
+2. **Power Query** – Cleaned inconsistent category labels (e.g., "LF", "low fat", "Low Fat" all merged into a single Low Fat category).
 3. **DAX** – Built measures for Total Sales, Average Sales, No. of Items, and Average Rating, plus calculated breakdowns by outlet dimension.
 4. **Power BI** – Designed a single-page dashboard with KPI cards, a tab-style matrix (Total/Average Sales, No. of Items, Average Rating), donut and bar charts, and an area chart for the year-over-year trend.
 
+## 📈 Dashboard Preview
+![BlinkIT Dashboard](./images/blinkit_dashboard_image.png)
 
 ## 🔍 Key Insights (from the actual 8,523-row dataset)
 - **Total Sales: $1.20M** across 8,523 items, with an average sale value of **$140.99** and an average product rating of **3.92**.
@@ -41,26 +43,23 @@ BlinkIT's leadership needs to know which outlets and products are working, and w
 - 
 - **Supermarket Type 1 drives 66% of total revenue** ($787K of $1.20M) from just 5,577 of the 8,523 items — the single most important outlet format in the network.
 - 
-- **Fruits & Vegetables and Snack Foods are the top 2 categories**, together contributing **$353K (29%) of total sales**. At the same time, Seafood and Breakfast are the lowest performers, indicating a clear opportunity to rebalance shelf space and inventory toward fast-moving categories.
+- **Fruits & Vegetables and Snack Foods are the top 2 categories**, together contributing **$353K (29%) of total sales**, while Seafood and Breakfast are the lowest performers, indicating a clear opportunity to rebalance shelf space and inventory toward fast-moving categories.
 - 
 - **Low Fat items outsell Regular items by ~75%** ($717K vs. $409K combined with mislabeled variants), reflecting a clear consumer preference worth factoring into procurement.
-- 
 
 ## 🚀 How to Use This Project
 ```bash
-git clone https://github.com/<your-username>/blinkit-grocery-sales-dashboard.git
+git clone https://github.com/ankitabisht-data-analyst/blinkit-grocery-sales-dashboard-powerbi.git
 ```
-1. Open [`BLINKIT_DASHBOARD.pbix`](./powerbi/BLINKIT_DASHBOARD.pbix) in Power BI Desktop.
-2. Refresh the data source to point to [`BlinkIT_Grocery_Data.xlsx`](./data/BlinkIT_Grocery_Data.xlsx).
+1. Open [`BLINKIT DASHBOARD.pbix`](./POWERBI/BLINKIT%20DASHBOARD.pbix) in Power BI Desktop.
+2. Refresh the data source to point to [`BlinkIT Grocery Data.xlsx`](./data/BlinkIT%20Grocery%20Data.xlsx).
 3. Use the slicers (Outlet Location Type, Outlet Size, Item Type) to explore the data interactively.
 
 ## 📈 Skills Demonstrated
 `Power BI` `DAX` `Power Query` `Data Cleaning` `Excel` `Data Visualization` `Retail Analytics` `KPI Reporting` `Dashboard Design`
 
-
 ## 📬 Contact
 **Ankita Bisht** — Data Analyst
-[LinkedIn](https://www.linkedin.com/in/ankita-bisht09) 
 [LinkedIn](https://www.linkedin.com/in/ankita-bisht09) · [GitHub](https://github.com/ankitabisht-data-analyst)
 
 ⭐ If you found this project useful, consider giving it a star!
