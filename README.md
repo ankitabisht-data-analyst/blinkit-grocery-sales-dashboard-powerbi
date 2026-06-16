@@ -28,6 +28,10 @@ BlinkIT's leadership needs to know which outlets and products are working, and w
 2. **Power Query** – Cleaned inconsistent category labels (e.g., "LF", "low fat", "Low Fat" all merged into a single Low Fat category).
 3. **DAX** – Built measures for Total Sales, Average Sales, No. of Items, and Average Rating, plus calculated breakdowns by outlet dimension.
 4. **Power BI** – Designed a single-page dashboard with KPI cards, a tab-style matrix (Total/Average Sales, No. of Items, Average Rating), donut and bar charts, and an area chart for the year-over-year trend.
+   
+
+## 📈 Dashboard Preview
+![BlinkIT Dashboard](./images/blinkit%20dashboard%20image.png)
 
 
 ## 🔍 Key Insights (from the actual 8,523-row dataset)
