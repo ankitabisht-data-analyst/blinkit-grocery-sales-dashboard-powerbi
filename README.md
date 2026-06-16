@@ -29,8 +29,6 @@ BlinkIT's leadership needs to know which outlets and products are working, and w
 3. **DAX** – Built measures for Total Sales, Average Sales, No. of Items, and Average Rating, plus calculated breakdowns by outlet dimension.
 4. **Power BI** – Designed a single-page dashboard with KPI cards, a tab-style matrix (Total/Average Sales, No. of Items, Average Rating), donut and bar charts, and an area chart for the year-over-year trend.
 
-## 📈 Dashboard Preview
-![BlinkIT Dashboard](./images/blinkit_dashboard_image.png)
 
 ## 🔍 Key Insights (from the actual 8,523-row dataset)
 - **Total Sales: $1.20M** across 8,523 items, with an average sale value of **$140.99** and an average product rating of **3.92**.
