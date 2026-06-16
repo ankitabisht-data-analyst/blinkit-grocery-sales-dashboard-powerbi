@@ -32,12 +32,19 @@ BlinkIT's leadership needs to know which outlets and products are working, and w
 
 ## 🔍 Key Insights (from the actual 8,523-row dataset)
 - **Total Sales: $1.20M** across 8,523 items, with an average sale value of **$140.99** and an average product rating of **3.92**.
+- 
 - **Tier 3 outlets generate 40% more revenue than Tier 1** ($472K vs. $336K) despite being a "lower tier" classification — a strong signal that outlet tier doesn't equal outlet performance.
+- 
 - **Medium-sized outlets account for 42% of total sales** ($507K), outperforming both Small (37%) and High-size outlets (21%) — sales density, not outlet size, is the better predictor of revenue.
+- 
 - **2018 was a breakout year**, with outlets established that year generating **$205K in sales — roughly 53% above** the ~$130K average of surrounding years, pointing to a successful outlet cohort worth replicating.
+- 
 - **Supermarket Type 1 drives 66% of total revenue** ($787K of $1.20M) from just 5,577 of the 8,523 items — the single most important outlet format in the network.
-- **Fruits & Vegetables and Snack Foods are the top 2 categories**, together contributing **$353K (29%) of total sales**, while Seafood and Breakfast are the lowest performers, indicating a clear opportunity to rebalance shelf space and inventory toward fast-moving categories.
+- 
+- **Fruits & Vegetables and Snack Foods are the top 2 categories**, together contributing **$353K (29%) of total sales**. At the same time, Seafood and Breakfast are the lowest performers, indicating a clear opportunity to rebalance shelf space and inventory toward fast-moving categories.
+- 
 - **Low Fat items outsell Regular items by ~75%** ($717K vs. $409K combined with mislabeled variants), reflecting a clear consumer preference worth factoring into procurement.
+- 
 
 ## 🚀 How to Use This Project
 ```bash
@@ -49,6 +56,7 @@ git clone https://github.com/<your-username>/blinkit-grocery-sales-dashboard.git
 
 ## 📈 Skills Demonstrated
 `Power BI` `DAX` `Power Query` `Data Cleaning` `Excel` `Data Visualization` `Retail Analytics` `KPI Reporting` `Dashboard Design`
+
 
 ## 📬 Contact
 **Ankita Bisht** — Data Analyst
